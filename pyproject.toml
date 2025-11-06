@@ -1,0 +1,13 @@
+[project]
+name = "estimate-dpi"
+version = "0.1.0"
+description = "Estimates the DPI of a thermal print that is scanned with a high resolution scanner"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.3.4",
+    "pillow>=12.0.0",
+]
+
+[project.scripts]
+estimate-dpi = "main:main"
